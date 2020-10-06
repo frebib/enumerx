@@ -1,11 +1,13 @@
 # Enumerx - Extended Enumer
 
-`Enumerx` is extension of [Enumer](https://github.com/alvaroloes/enumer) with additional features.
+`Enumerx` is a tool to generate Go code that adds useful methods to Go enums (constants with a specific type).
+
+Enumerx is extension of [Enumer](https://github.com/alvaroloes/enumer) with additional features.
 * We can pass `-trimprefix=@type`, where @type will be replaced by actual type name. 
 This is useful when we have multiple types & don't want to write `go generate` comments for each type.
 * `-transform` has more options. ` [ noop | snake | kebab | snake_upper | kebab_upper ]`
 
-Enumerx is a tool to generate Go code that adds useful methods to Go enums (constants with a specific type).
+
 
 # Install
 
@@ -47,8 +49,12 @@ const (
 
 ```
 
+
+
 Below is documentation from Parent Enumer project.
 --------------------------------------------------
+
+
 
 # Enumer [![GoDoc](https://godoc.org/github.com/alvaroloes/enumer?status.svg)](https://godoc.org/github.com/alvaroloes/enumer) [![Go Report Card](https://goreportcard.com/badge/github.com/alvaroloes/enumer)](https://goreportcard.com/report/github.com/alvaroloes/enumer) [![cover.run go](https://cover.run/go/github.com/alvaroloes/enumer.svg?tag=golang-1.10)](https://cover.run/go/github.com/alvaroloes/enumer?tag=golang-1.10)
 Enumer is a tool to generate Go code that adds useful methods to Go enums (constants with a specific type).
