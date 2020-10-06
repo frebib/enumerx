@@ -1,6 +1,6 @@
 # Enumerx - Extended Enumer
 
-`Enumerx` is a tool to generate Go code that adds useful methods to Go enums (constants with a specific type).
+`Enumerx` is a tool to generate Go code that adds useful methods to Go enums (constants with a specific type). 
 
 Enumerx is extension of [Enumer](https://github.com/alvaroloes/enumer) with additional features.
 * We can pass `-trimprefix=@type`, where @type will be replaced by actual type name. 
