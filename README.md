@@ -1,4 +1,4 @@
-# Enumerx - Extended Enumer
+# Enumerx - Extended Enumer [![PkgGoDev](https://pkg.go.dev/badge/github.com/niktri/enumerx)](https://pkg.go.dev/github.com/niktri/enumerx)
 
 `Enumerx` is a tool to generate Go code that adds useful methods to Go enums (constants with a specific type). 
 
