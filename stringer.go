@@ -4,13 +4,13 @@
 
 // +build go1.5
 
-//Enumerx is a fork of Enumer tool with some customization, e.g. variable support like @type, transforms: snake_upper, kebab_upper
-//Please visit http://github.com/niktri/enumerx for a comprehensive documentation
-
 //Enumer is a tool to generate Go code that adds useful methods to Go enums (constants with a specific type).
 //It started as a fork of Rob Pike’s Stringer tool
 //
 //Please visit http://github.com/alvaroloes/enumer for a comprehensive documentation
+
+//Enumerx is a fork of Enumer tool with useful extensions, e.g. variable support like @type, transforms: snake_upper, kebab_upper
+//See http://github.com/niktri/enumerx for a documentation
 package main
 
 import (
