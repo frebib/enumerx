@@ -1,4 +1,4 @@
-module github.com/niktri/enumerx
+module github.com/frebib/enumerx
 
 go 1.18
 

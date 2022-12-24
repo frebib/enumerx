@@ -1,5 +1,7 @@
 # Enumerx - Extended Enumer [![PkgGoDev](https://pkg.go.dev/badge/github.com/niktri/enumerx)](https://pkg.go.dev/github.com/niktri/enumerx) [![Go Report Card](https://goreportcard.com/badge/github.com/niktri/enumerx)](https://goreportcard.com/report/github.com/niktri/enumerx)
 
+This is a fork of github.com/niktri/enumerx that should work with Go 1.18+
+
 `Enumerx` is a tool to generate Go code that adds useful methods to Go enums (constants with a specific type). 
 
 Enumerx is extension of [Enumer](https://github.com/alvaroloes/enumer) with additional features.
@@ -12,7 +14,7 @@ This is useful when we have multiple types & don't want to write `go generate` c
 # Install
 
 ```
-go get github.com/niktri/enumerx
+go install github.com/frebib/enumerx@latest
 ```
 After that, the `enumerx` executable will be in "$GOPATH/bin" folder and you can use it with `go generate`
 
